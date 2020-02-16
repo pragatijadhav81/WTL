@@ -1,0 +1,97 @@
+# WTL<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="reg.css">
+</head>
+
+
+
+
+
+<body>
+
+    <div class="register">
+
+        <h1>REGISTRATION FORM</h1>
+        <form>
+            <table cellspacing="30" style="text-align: left;">
+
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" name="First Name" placeholder="Enter First Name"></td>
+                </tr>
+
+
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="text" name="Last Name" placeholder="Enter Last Name"></td>
+                </tr><br>
+
+                <tr>
+                    <td> Date Of Birth:</td>
+                    <td><input type="date"></td>
+                </tr>
+
+                <tr>
+                    <td>Age:</td>
+                    <td> <input type="number"></td>
+                </tr>
+
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="gender" value="Male" checked>Male
+                        <input type="radio" name="gender" value="Female" checked>Female
+                        <input type="radio" name="gender" value="Other" checked>Other</td>
+                </tr>
+
+                <tr>
+                    <td>Address:</td>
+                    <td><input type="textarea" name="Address"></td>
+                </tr>
+                <tr>
+
+
+                    <td> Contact:<br>
+                        <select id="d">
+                            <option>+91</option>
+                            <option>+92</option>
+                            <option>+93</option>
+                            <option>+94</option>
+                            <option>+95</option>
+                        </select></td>
+                    <td> <input type="number" name="Mobile Number"></td>
+                </tr>
+
+                <tr>
+                    <td>HSC:</td>
+                    <td> <input type="number"></td>
+                </tr>
+
+                <tr>
+                    <td>SSC:</td>
+                    <td> <input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Qualification</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="Email"></td>
+                </tr>
+
+
+
+            </table>
+
+            <input type="submit" name="submit" value="submit">
+            <input type="reset">
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
